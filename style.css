@@ -1,0 +1,187 @@
+* {
+    
+    margin: 0;
+    
+    padding: 0;
+    
+    outline: 0;
+  }
+  
+  
+  body{
+   
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+  }
+  
+  li {
+
+    list-style: none;
+  }
+  
+  .header-menu{
+    
+    display: flex;
+    position: fixed; 
+    width: 100%; 
+    padding: 8px; 
+    padding-bottom: 20px;
+    padding-top: 20px;
+    height: 60px; 
+    background-color: #ebd66f; 
+  }
+  
+  .header-menu nav {
+    display: flex; 
+    justify-content: flex-end; 
+    width: 100%; 
+  }
+  
+  .lista-menu{
+    display: flex;
+    justify-content: space-evenly; 
+    width: 50%; 
+    align-items: center; 
+  }
+  
+  
+  .lista-menu li>a {
+    color: #490c0c; 
+    font-size: 18px; 
+    text-decoration: inherit; 
+  }
+  
+  .principal{
+    height: 100vh; 
+    display: flex;
+    background-color: #eae7e7; 
+  }
+
+  .fotoperfil{
+   width:140px;
+   height:140px;
+  }
+  
+  .container {
+    margin-right: auto; 
+    margin-left: auto;
+    margin-top: 75px; 
+    max-width: 960px; 
+    padding-right: 10px; 
+    padding-left: 10px; 
+    width: 100%; 
+  }
+  
+  .subcontainer-principal{
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .nome-completo {
+    font-size: 36px;
+    color: #47110d;
+    font-weight: 700;
+    height: 45px;
+  }
+  
+  .profissao{
+    color: #af361a;
+    height: 60PX;
+  }
+  
+  .texto-sobre {
+    font-size: 20px;
+    line-height: 32px;
+  }
+  
+  .article-lista{
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    margin-bottom: 100px;
+  }
+  
+  .topico-principal {
+    font-size: 36px;
+    color: #491811;
+  }
+  
+  .lista-item{
+    padding: 32px;
+  }
+  
+  .lista-item ul li {
+    margin-bottom: 32px;
+  }
+  
+  .lista-titulo{
+   margin-bottom: 5px; 
+   font-size: 22px;
+   color: #622f24;
+   font-weight: 700;
+  }
+  
+  .lista-local{
+    font-size: 18px;
+    color: #2F80ED;
+    
+  }
+  
+  .lista-descricao {
+    font-size: 18px;
+    margin-top: 5px;
+    line-height: 20px;
+    color:#490c0c;
+    font-weight: 300;
+  }
+
+  .formacao {
+    background-color:#f8efef;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .portfolio{
+    background-color:#d5d2d2;
+    display: flex;
+    flex-direction: column; 
+
+  }
+  
+  .rodape{
+    background-color:#ebd66f; 
+    height: 300px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .lista-rodape li{
+    color: #490c0c;
+    font-weight: 700;
+    font-size: 18px;
+    margin-bottom: 16px;
+    display: flex;
+    align-items: center;
+
+  }
+
+  
+  .rodape nav {
+    display: flex; 
+    justify-content: flex-end; 
+    width: 100%;
+     
+  }
+ 
+  
+  .estilo-icone{
+   font-size: 32px;
+   margin-right: 10px;
+   color:#490c0c
+  }
+
+  
